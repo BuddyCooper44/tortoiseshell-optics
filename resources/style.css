@@ -1,0 +1,35 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container .topline {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem 1rem 2rem;
+  margin-top: 1rem;
+}
+
+.topline span {
+  font-size: 1rem;
+  padding-right: 2rem;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.topline img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
