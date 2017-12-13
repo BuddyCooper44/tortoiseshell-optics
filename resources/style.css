@@ -70,3 +70,30 @@ nav img {
   padding: 1.5rem 5rem;
   margin: 0rem;
 }
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0rem;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 8rem;
+  width: 5rem;
+  word-wrap: break-word;
+  padding-right: 6rem;
+  text-align: center;
+}
+
+.paper img {
+  width: 3.5rem;
+}
+
+.fittings img, .delivery img {
+  width: 5rem;
+}
