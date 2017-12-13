@@ -1,35 +1,72 @@
 html {
   font-size: 18px;
-  line-height: 1.4;
+}
+
+body {
+  line-height: 1.4rem;
   font-family: Helvetica;
+  margin: 0;
+}
+
+header {
+  background-image: url("images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
 }
 
 .container {
   max-width: 960px;
-  margin: 0 auto;
+  margin: auto;
 }
 
-.container .topline {
+nav {
   background-color: cadetblue;
   color: white;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0rem 1rem 2rem;
-  margin-top: 1rem;
+  padding: 1rem 0;
 }
 
-.topline span {
-  font-size: 1rem;
-  padding-right: 2rem;
-}
-
-.left {
+nav div {
   display: flex;
   align-items: center;
 }
 
-.topline img {
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0rem;
+}
+
+nav li {
+  padding: 0rem 2rem;
+}
+
+nav .short-list {
+  display: none;
+}
+
+nav img {
   height: 1.5rem;
-  padding-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-banner {
+  background-color: white;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+
+.flex h1 {
+  padding: 1.5rem 5rem;
+  margin: 0rem;
 }
