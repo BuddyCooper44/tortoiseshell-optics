@@ -74,7 +74,6 @@ nav img {
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 3rem 0rem;
 }
 
@@ -86,7 +85,6 @@ nav img {
   height: 8rem;
   width: 5rem;
   word-wrap: break-word;
-  padding-right: 6rem;
   text-align: center;
 }
 
@@ -96,4 +94,47 @@ nav img {
 
 .fittings img, .delivery img {
   width: 5rem;
+}
+
+.paper, .fittings {
+  padding-right: 6rem;
+}
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.about {
+  width: 35%;
+}
+
+.information {
+  color: white;
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.information span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.appointments {
+  padding-left: 5%;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem;
 }
